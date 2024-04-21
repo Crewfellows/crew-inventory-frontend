@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@ant-design/icons': 5.3.6
   '@ant-design/nextjs-registry': 1.0.0
   '@commitlint/cli': 19.2.2
   '@commitlint/config-conventional': 19.2.2
@@ -27,6 +28,7 @@ specifiers:
   typescript: 5.4.5
 
 dependencies:
+  '@ant-design/icons': 5.3.6_react-dom@18.2.0+react@18.2.0
   '@ant-design/nextjs-registry': 1.0.0_b52b8920c32c6ff74cb71c12852f8a13
   antd: 5.16.2_react-dom@18.2.0+react@18.2.0
   next: 14.2.1_react-dom@18.2.0+react@18.2.0
