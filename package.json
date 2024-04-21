@@ -3,21 +3,17 @@
   "description": "Single app to manage the inventory and generate reports",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
   "license": "MIT",
-  "keywords": [
-    "nextjs",
-    "starter",
-    "typescript"
-  ],
+  "keywords": [],
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "clean": "rimraf .next .swc out coverage",
     "type-check": "tsc --noEmit",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -53,5 +49,8 @@
     "prettier": "3.2.5",
     "prettier-plugin-sort-json": "4.0.0",
     "typescript": "5.4.5"
+  },
+  "engines": {
+    "node": ">=20.10.0"
   }
 }
