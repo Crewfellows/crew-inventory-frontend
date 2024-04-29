@@ -2,9 +2,9 @@ import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/i
 
 export const sideBarNavigation = [
   {
-    key: '/products',
+    key: '1',
     icon: <UserOutlined />,
-    label: 'Products',
+    label: 'Inventory Managment',
   },
   {
     key: '2',
