@@ -1,4 +1,5 @@
-import { Button, Space, Tag } from 'antd';
+import { DeleteOutlined, EditOutlined } from '@ant-design/icons';
+import { Space, Tag } from 'antd';
 
 import { ProductDataType } from '../models/product';
 
@@ -55,8 +56,8 @@ export const productTableColumns: TableProps<ProductDataType>['columns'] = [
     key: 'action',
     render: () => (
       <Space size="middle">
-        <Button type="primary">Edit</Button>
-        <Button type="dashed">Delete</Button>
+        <EditOutlined />
+        <DeleteOutlined />
       </Space>
     ),
   },
